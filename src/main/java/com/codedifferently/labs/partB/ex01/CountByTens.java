@@ -3,11 +3,12 @@ package com.codedifferently.labs.partB.ex01;
 public class CountByTens {
     public static String countingByTens() {
         String response = "";
+        for(int i = 10; i <=100; i+=10){
+            response += i + " ";
+        }
 
-        /**
-         * Your code goes here
-         */
         return response;
+
     }
 
     public static void main(String[] args) {
